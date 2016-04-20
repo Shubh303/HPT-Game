@@ -10,7 +10,7 @@ $(document).ready(function() {
 
   var playerName = '';
   var playerAnswer1 = '';
-  var answer1 = 'Number four, Privet Drive'
+  var answer1 = 'number four, privet drive'
   var correctCounter = 0;
 
   // Hide Player Name
