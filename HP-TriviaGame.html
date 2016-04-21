@@ -32,11 +32,15 @@
           <div id="dashboard">
             <h3 id="show-player-name">Player Name</h3>
             <h4 id="h">Score: <span id="score">0</span></h4>
+            <h4 id="h">Tries left: <span id="tries-left"></span></h4>
           </div>
         </div>
       </div> <!-- end dashboard -->
+
+
+
       <!-- Question 1 -->
-      <div id="question1" class="question" class="row">
+      <div id="question1" class="question row">
         <div class="col s12">
           <h4 id="h">1. Where does the Dursley family live?</h4>
           <form>
@@ -54,7 +58,38 @@
           </div>
         </div> <!-- end col -->
       </div> <!-- question 1 -->
-    </div>
+
+
+
+            <!-- Question 2 -->
+      <div id="question2" class="question row">
+        <div class="col s12">
+          <h4 id="h">2. Who was wrongly accused of opening the Chamber of Secrets 50 years ago?</h4>
+          <form>
+            <div class="input-field col s6">
+              <input id="input-question2" type="text" placeholder="Type your answer here">
+              <label class="active" for="input-question1">Question 2</label>
+              <button type="submit" id="question1-btn" class="waves-effect waves-light btn green">Answer</button>
+            </div>
+          </form>
+          <div id="answer2" class="answer">
+            <!-- <h5 id="h">Your answer is: <span id="show-player-answer1"></span></h5>
+            <h5 id="h">The correct answer is: <span id="correct-answer1"></span></h5> -->
+            <h5 id="correct-msg2" class="green-text correct-msg">You are correct!</h5>
+            <h5 id="incorrect-msg2" class="red-text incorrect-msg">WRONG!!!!!</h5>
+          </div>
+        </div> <!-- end col -->
+      </div> <!-- question 2 -->
+
+      <!-- Win and Lose Msgs -->
+      <div class="row">
+        <div class="col s12">
+          <h3 id="lose-game-msg" class="red-text">You lost the game!</h3>
+          <!-- put win msg here -->
+        </div><!-- end col -->
+      </div><!-- end row -->
+
+    </div><!-- end container -->
   </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
