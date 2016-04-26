@@ -21,7 +21,7 @@ $(document).ready(function() {
   var answer3 = 'full moon';
   var answer4 = 'hungarian horntail';
   var answer5 = 'twelve grimmauld place' || '12 grimmauld place';
-  var answer6 = 'marvolo’s ring';
+  var answer6 = "marvolo's ring";
   var answer7 = 'the hufflepuff cup' || 'hufflepuff cup';
   var correctCounter = 0;
   var triesLeft = 3;
@@ -87,7 +87,7 @@ $(document).ready(function() {
     $('#welcome-screen').addClass('animated zoomOut');
     $('#tries-left').text(triesLeft);
     setTimeout(removeWelcomeScreen, 1000);
-    setTimeout(removeWelcome, 2000);
+    // setTimeout(removeWelcome, 2000);
     setTimeout(removequestion, 3000);
   });
 
